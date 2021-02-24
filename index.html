@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+body{
+    background-image: url("racing-background.gif");
+    background-position: center;
+    background-size: cover;
+}
+#my_canvas
+{
+    border-width:10px;
+    background-color: white; 
+    border-style:ridge;
+}
+
+h1,p
+{
+    color: white !important;
+}
+p{
+    font-size: large;
+    
+}
+</style>        
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Car race</title>
+</head>
+<body onload=add();>
+<center>
+<h1>Car race</h1>
+<canvas id="my_canvas" width="800" height="600"></canvas>
+<br><br>
+<p>NOTE: To Move The Second Car Use: U for up, D for down, R for right, L for left.</p>
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
